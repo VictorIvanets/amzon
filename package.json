@@ -1,0 +1,22 @@
+{
+  "name": "amazon",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "predeploy": "tsc && vite build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.3",
+    "vite": "^7.0.4",
+    "gh-pages": "^6.1.1"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "sass-embedded": "^1.89.2"
+  }
+}
